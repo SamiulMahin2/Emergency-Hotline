@@ -26,7 +26,7 @@
 		<nav class="container mx-auto md:flex justify-between items-center py-6">
 
 			<!-- logo -->
-			<div class="logo text-center md:flex md:justify-start">
+			<div class="logo text-center md:flex md:justify-start md:items-center cursor-pointer">
 				<div class="logo-image h-[50px] w-[50px] mx-auto">
 					<img src="./assets/logo.png" alt="">
 				</div>
@@ -56,15 +56,18 @@
 
 		<!-- banner -->
 		<section class="banner bg-gradient-to-r from-[#013223] form-[0%] via-[#006747] via-[49.99%] to-[#013223] to-100% py-[20px]">
-			<div class="banner-content text-center">
+			<div class="banner-content text-center mx-[30px] md:mx-0">
 				<div class="banner-image w-[100px] mx-auto">
 					<img src="./assets/logo.png" alt="">
 				</div>
 				<div class="banner-heading">
-					<h1 class="hind-madurai-regular text-3xl md:text-[40px] text-white font-[600] my-[11px] ">জরুরি সেবা ডিরেক্টরি</h1>
+					<h1 class="hind-madurai-regular text-3xl md:text-[40px] text-white font-[600] my-[11px] ">জরুরি সেবা
+						ডিরেক্টরি</h1>
 				</div>
 				<div class="banner-description">
-					<p class="hind-madurai-regular text-[16px] md:text-[20px] text-white font-[600] ">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+					<p class="hind-madurai-regular text-[16px] md:text-[20px] text-white font-[600] ">Government
+						Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+						Bangladesh</p>
 				</div>
 			</div>
 		</section>
@@ -74,9 +77,232 @@
 	<!-- header end -->
 
 	<!-- main start -->
-	 <main class="container bg-[#F5FFF6]">
+	<main class="bg-[#F5FFF6] pt-[48px] pb-[86px]">
+		<section class="main-body container mx-auto grid md:grid-cols-12 gap-[30px]">
 
-	 </main>
+			<!-- right section -->
+			<div class="right-section md:col-span-9">
+				<div class="cards-container grid grid-cols-1 md:grid-cols-3 gap-7">
+
+					<!-- national emergency -->
+					<div class="single-card bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] mx-[30px] md:mx-0">
+
+						<div class="single-card-img-icon flex justify-between items-center">
+							<div class="single-card-img bg-[#FFE3E2] rounded-2xl p-2.5">
+								<img src="./assets/emergency.png" class="w-[32px] mx-auto" alt="">
+							</div>
+							<i class="fa-regular fa-heart"></i>
+						</div>
+
+						<div class="single-card-content">
+							<h1 class="hind-madurai-regular text-[24px] text-[#111] font-bold mt-[16px]">জাতীয় জরুরি সেবা</h1>
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">National Emergency</p>
+							<h2 class="roboto-font text-[32px] text-[#111] font-bold mt-[20px]">999</h2>
+							<div class="bg-[#F2F2F2] px-[16px] py-[6px] rounded-full inline-block">
+								<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">সার্বজনীন</p>
+							</div>
+						</div>
+
+						<div class="single-card-buttons flex justify-between items-center mt-[24px]">
+							<div class="copy-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px]"><i class="fa-regular fa-clone text-[#5C5C5C]"></i><span class="roboto-font text-[16px] font-[400] text-[#5C5C5C] ml-[5px]">Copy</span></button>
+							</div>
+							<div class="call-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px] bg-[#00A63E]"><i class="fa-solid fa-phone-volume text-white"></i><span class="roboto-font text-[16px] font-[400] text-white ml-[5px]">Call</span></button>
+							</div>
+						</div>
+
+					</div>
+					<!-- national emergency -->
+
+					<!-- police -->
+					<div class="single-card bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] mx-[30px] md:mx-0">
+
+						<div class="single-card-img-icon flex justify-between items-center">
+							<div class="single-card-img bg-[#DFEFFF] rounded-2xl p-2.5">
+								<img src="./assets/police.png" class="w-[32px] mx-auto" alt="">
+							</div>
+							<i class="fa-regular fa-heart"></i>
+						</div>
+
+						<div class="single-card-content">
+							<h1 class="hind-madurai-regular text-[24px] text-[#111] font-bold mt-[16px]">পুলিশ</h1>
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">Police</p>
+							<h2 class="roboto-font text-[32px] text-[#111] font-bold mt-[20px]">999</h2>
+							<div class="bg-[#F2F2F2] px-[16px] py-[6px] rounded-full inline-block">
+								<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">পুলিশ</p>
+							</div>
+						</div>
+
+						<div class="single-card-buttons flex justify-between items-center mt-[24px]">
+							<div class="copy-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px]"><i class="fa-regular fa-clone text-[#5C5C5C]"></i><span class="roboto-font text-[16px] font-[400] text-[#5C5C5C] ml-[5px]">Copy</span></button>
+							</div>
+							<div class="call-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px] bg-[#00A63E]"><i class="fa-solid fa-phone-volume text-white"></i><span class="roboto-font text-[16px] font-[400] text-white ml-[5px]">Call</span></button>
+							</div>
+						</div>
+
+					</div>
+					<!-- police -->
+
+					<!-- fire service -->
+					<div class="single-card bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] mx-[30px] md:mx-0">
+
+						<div class="single-card-img-icon flex justify-between items-center">
+							<div class="single-card-img bg-[#FFE3E2] rounded-2xl p-2.5">
+								<img src="./assets/fire-service.png" class="w-[32px] mx-auto" alt="">
+							</div>
+							<i class="fa-regular fa-heart"></i>
+						</div>
+
+						<div class="single-card-content">
+							<h1 class="hind-madurai-regular text-[24px] text-[#111] font-bold mt-[16px]">ফায়ার সার্ভিস</h1>
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">Fire Service</p>
+							<h2 class="roboto-font text-[32px] text-[#111] font-bold mt-[20px]">999</h2>
+							<div class="bg-[#F2F2F2] px-[16px] py-[6px] rounded-full inline-block">
+								<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">ফায়ার</p>
+							</div>
+						</div>
+
+						<div class="single-card-buttons flex justify-between items-center mt-[24px]">
+							<div class="copy-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px]"><i class="fa-regular fa-clone text-[#5C5C5C]"></i><span class="roboto-font text-[16px] font-[400] text-[#5C5C5C] ml-[5px]">Copy</span></button>
+							</div>
+							<div class="call-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px] bg-[#00A63E]"><i class="fa-solid fa-phone-volume text-white"></i><span class="roboto-font text-[16px] font-[400] text-white ml-[5px]">Call</span></button>
+							</div>
+						</div>
+
+					</div>
+					<!-- fire service -->
+
+					<!-- ambulance -->
+					<div class="single-card bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] mx-[30px] md:mx-0">
+
+						<div class="single-card-img-icon flex justify-between items-center">
+							<div class="single-card-img bg-[#FFE3E2] rounded-2xl p-2.5">
+								<img src="./assets/ambulance.png" class="w-[32px] mx-auto" alt="">
+							</div>
+							<i class="fa-regular fa-heart"></i>
+						</div>
+
+						<div class="single-card-content">
+							<h1 class="hind-madurai-regular text-[24px] text-[#111] font-bold mt-[16px]">অ্যাম্বুলেন্স</h1>
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">Ambulance</p>
+							<h2 class="roboto-font text-[32px] text-[#111] font-bold mt-[20px]">1994-999999</h2>
+							<div class="bg-[#F2F2F2] px-[16px] py-[6px] rounded-full inline-block">
+								<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">স্বাস্থ্য</p>
+							</div>
+						</div>
+
+						<div class="single-card-buttons flex justify-between items-center mt-[24px]">
+							<div class="copy-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px]"><i class="fa-regular fa-clone text-[#5C5C5C]"></i><span class="roboto-font text-[16px] font-[400] text-[#5C5C5C] ml-[5px]">Copy</span></button>
+							</div>
+							<div class="call-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px] bg-[#00A63E]"><i class="fa-solid fa-phone-volume text-white"></i><span class="roboto-font text-[16px] font-[400] text-white ml-[5px]">Call</span></button>
+							</div>
+						</div>
+
+					</div>
+					<!-- ambulance -->
+
+					<!-- brac -->
+					<div class="single-card bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] mx-[30px] md:mx-0">
+
+						<div class="single-card-img-icon flex justify-between items-center">
+							<div class="single-card-img bg-[#DFEFFF] rounded-2xl p-2.5">
+								<img src="./assets/brac.png" class="w-[32px] mx-auto" alt="">
+							</div>
+							<i class="fa-regular fa-heart"></i>
+						</div>
+
+						<div class="single-card-content">
+							<h1 class="hind-madurai-regular text-[24px] text-[#111] font-bold mt-[16px]">ব্র্যাক</h1>
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">Brac</p>
+							<h2 class="roboto-font text-[32px] text-[#111] font-bold mt-[20px]">16445</h2>
+							<div class="bg-[#F2F2F2] px-[16px] py-[6px] rounded-full inline-block">
+								<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">এনজিও</p>
+							</div>
+						</div>
+
+						<div class="single-card-buttons flex justify-between items-center mt-[24px]">
+							<div class="copy-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px]"><i class="fa-regular fa-clone text-[#5C5C5C]"></i><span class="roboto-font text-[16px] font-[400] text-[#5C5C5C] ml-[5px]">Copy</span></button>
+							</div>
+							<div class="call-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px] bg-[#00A63E]"><i class="fa-solid fa-phone-volume text-white"></i><span class="roboto-font text-[16px] font-[400] text-white ml-[5px]">Call</span></button>
+							</div>
+						</div>
+
+					</div>
+					<!-- brac -->
+
+					<!-- railway -->
+					<div class="single-card bg-white rounded-[12px] p-[32px] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] mx-[30px] md:mx-0">
+
+						<div class="single-card-img-icon flex justify-between items-center">
+							<div class="single-card-img bg-[#FFE3E2] rounded-2xl p-2.5">
+								<img src="./assets/Bangladesh-Railway.png" class="w-[32px] mx-auto" alt="">
+							</div>
+							<i class="fa-regular fa-heart"></i>
+						</div>
+
+						<div class="single-card-content">
+							<h1 class="hind-madurai-regular text-[24px] text-[#111] font-bold mt-[16px]">বাংলাদেশ রেলওয়ে</h1>
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">Bangladesh Railway</p>
+							<h2 class="roboto-font text-[32px] text-[#111] font-bold mt-[20px]">163</h2>
+							<div class="bg-[#F2F2F2] px-[16px] py-[6px] rounded-full inline-block">
+								<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">পরিবহন</p>
+							</div>
+						</div>
+
+						<div class="single-card-buttons flex justify-between items-center mt-[24px]">
+							<div class="copy-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px]"><i class="fa-regular fa-clone text-[#5C5C5C]"></i><span class="roboto-font text-[16px] font-[400] text-[#5C5C5C] ml-[5px]">Copy</span></button>
+							</div>
+							<div class="call-button">
+								<button class="border-1 border-[#D4D6D5] p-[10px] rounded-[8px] w-[115px] bg-[#00A63E]"><i class="fa-solid fa-phone-volume text-white"></i><span class="roboto-font text-[16px] font-[400] text-white ml-[5px]">Call</span></button>
+							</div>
+						</div>
+
+					</div>
+					<!-- railway -->
+
+				</div>
+			</div>
+			<!-- right section -->
+
+			<!-- left section -->
+			<div class="left-section md:col-span-3 bg-white shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-[24px] rounded-[12px] mx-[30px] md:mx-0">
+
+				<div class="left-section-top flex justify-between items-center">
+					<div class="left-section-heading">
+						<h1><i class="fa-regular fa-clock text-[#5C5C5C]"></i><span class="roboto-font text-[20px] font-[500] text-[#111] ml-[5px]">Call History</span></h1>
+					</div>
+					<div class="left-section-button">
+						<button class="py-[5px] px-[20px] rounded-[50px] bg-[#00A63E] inter-font text-[16px] font-[600] text-white">Clear</button>
+					</div>
+				</div>
+
+				<div class="left-section-bottom">
+					<div class="flex justify-between items-center py-[8px] px-[10px] rounded-[8px] bg-[#FAFAFA] gap-[4px] mt-[28px] mb-[24px]">
+						<div class="name-number">
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#111]">জাতীয় জরুরি সেবা</p>
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#5C5C5C]">999</p>
+						</div>
+						<div class="time">
+							<p class="hind-madurai-regular text-[18px] font-[400] text-[#111]">11:36:58 AM</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- left section -->
+
+		</section>
+	</main>
 	<!-- main end -->
 
 	<!-- js links -->
