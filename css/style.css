@@ -1,0 +1,28 @@
+/* fonts links start */
+
+/* hind madurai */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+}
+/* hind madurai */
+
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+/* roboto */
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+/* inter */
+
+/* fonts links end */
