@@ -15,7 +15,7 @@ document.getElementById("main-cards-container").addEventListener("click", functi
             copyNumber = copyBtn.parentNode.parentNode.parentNode.children[1].children[2].innerText,
             newCopy = copyCounter + 1;
         document.getElementById("copy-counter").innerText = newCopy;
-        alert("আপনি কপি বাটনটিতে ক্লিক করেছেন");
+        alert(`আপনি ${copyNumber} নাম্বারটি কপি করেছেন`);
         navigator.clipboard.writeText(copyNumber);
     }
 })
