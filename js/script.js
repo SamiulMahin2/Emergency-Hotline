@@ -13,7 +13,7 @@ document.getElementById("main-cards-container").addEventListener("click", functi
         let copyCounter = Number(document.getElementById("copy-counter").innerText);
         let newCopy = copyCounter + 1;
         document.getElementById("copy-counter").innerText = newCopy;
-        alert("You heat the copy button");
+        alert("আপনি কপি বাটনটিতে ক্লিক করেছেন");
     }
 })
 
@@ -27,9 +27,10 @@ document.getElementById("main-cards-container").addEventListener("click", functi
             time = new Date().toLocaleTimeString(),
             newCoinCounter = coinCounter - 20;
         if (coinCounter < 20) {
-            alert("You don't have enough coin to take the service");
+            alert("এই সার্ভিসটি ব্যবহার করার জন্য আপনার কাছে পর্যাপ্ত কয়েন নেই");
             return;
         }
+        alert(`${cardName} সার্ভিসটির জন্য ${cardNumber} নাম্বারে কল করা হচ্ছে.........`);
         document.getElementById("coin-counter").innerText = newCoinCounter;
 
         let historySection = document.getElementById("history-section");
