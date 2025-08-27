@@ -10,10 +10,13 @@ document.getElementById("main-cards-container").addEventListener("click", functi
 //copy button configuration 
 document.getElementById("main-cards-container").addEventListener("click", function (event) {
     if (event.target.className.includes("copy-button")) {
-        let copyCounter = Number(document.getElementById("copy-counter").innerText);
-        let newCopy = copyCounter + 1;
+        let copyCounter = Number(document.getElementById("copy-counter").innerText),
+            copyBtn = event.target,
+            copyNumber = copyBtn.parentNode.parentNode.parentNode.children[1].children[2].innerText,
+            newCopy = copyCounter + 1;
         document.getElementById("copy-counter").innerText = newCopy;
         alert("আপনি কপি বাটনটিতে ক্লিক করেছেন");
+        navigator.clipboard.writeText(copyNumber);
     }
 })
 
