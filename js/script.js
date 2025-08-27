@@ -33,8 +33,8 @@ document.getElementById("main-cards-container").addEventListener("click", functi
             alert("এই সার্ভিসটি ব্যবহার করার জন্য আপনার কাছে পর্যাপ্ত কয়েন নেই");
             return;
         }
-        alert(`${cardName} সার্ভিসটির জন্য ${cardNumber} নাম্বারে কল করা হচ্ছে.........`);
         document.getElementById("coin-counter").innerText = newCoinCounter;
+        alert(`${cardName} সার্ভিসটির জন্য ${cardNumber} নাম্বারে কল করা হচ্ছে.........`);
 
         let historySection = document.getElementById("history-section");
         let div = document.createElement("div");
